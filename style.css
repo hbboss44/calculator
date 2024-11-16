@@ -56,6 +56,12 @@ input[type="button"]{
 }
 @media(max-width:760px){
     main{
-       width: -webkit-fill-available;
+        width: -webkit-fill-available;
+    }
+    h1{
+        margin: 16px 0;
+    }
+    input[type="button"]{
+        width: -webkit-fill-available;
     }
 }
